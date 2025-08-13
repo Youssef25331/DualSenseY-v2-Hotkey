@@ -117,5 +117,49 @@
         }
       }
     }
+  ],
+  "buildPresets": [
+    {
+      "name": "x64-debug-build",
+      "displayName": "Windows x64 Debug Build",
+      "configurePreset": "x64-debug",
+      "jobs": 4
+    },
+    {
+      "name": "x64-release-build",
+      "displayName": "Windows x64 Release Build",
+      "configurePreset": "x64-release",
+      "jobs": 4
+    },
+    {
+      "name": "x86-debug-build",
+      "displayName": "Windows x86 Debug Build",
+      "configurePreset": "x86-debug",
+      "jobs": 4
+    },
+    {
+      "name": "x86-release-build",
+      "displayName": "Windows x86 Release Build",
+      "configurePreset": "x86-release",
+      "jobs": 4
+    },
+    {
+      "name": "linux-debug-build",
+      "displayName": "Linux Debug Build",
+      "configurePreset": "linux-debug",
+      "jobs": 4
+    },
+    {
+      "name": "linux-release-build",
+      "displayName": "Linux Release Build",
+      "configurePreset": "linux-release",
+      "jobs": 4
+    },
+    {
+      "name": "macos-debug-build",
+      "displayName": "macOS Debug Build",
+      "configurePreset": "macos-debug",
+      "jobs": 4
+    }
   ]
 }
