@@ -40,6 +40,7 @@ bool MainWindow::menuBar() {
 
 	if (ImGui::BeginMainMenuBar()) {
 		if (ImGui::BeginMenu(str("File"))) {
+			ImGui::TextLinkOpenURL("Test Item", "https://youssef-hassan.vercel.app");
 			ImGui::EndMenu();
 		}
 
